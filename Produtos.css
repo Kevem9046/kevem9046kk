@@ -1,0 +1,37 @@
+.produtos {
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos h2 {
+    margin-bottom: 20px;
+}
+
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.produto p {
+    margin: 5px 0;
+}
